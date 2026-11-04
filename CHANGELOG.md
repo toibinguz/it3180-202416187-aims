@@ -14,6 +14,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `Cart.sort_by_cost()`: Sắp xếp các DVD trong giỏ hàng theo giá tiền.
 - `search_by_category()`: Tìm kiếm danh sách DVD theo thể loại trong module `aims.search`.
 
+## [1.0.1] - 2026-11-04
+
+### Fixed
+- `search_by_title`: Tìm kiếm không phân biệt chữ hoa / chữ thường (Refs #20).
+
 ## [1.0.0] - 2026-11-04
 
 ### Added
