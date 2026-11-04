@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+- `Cart.sort_by_title()`: Sắp xếp các DVD trong giỏ hàng theo thứ tự bảng chữ cái tiêu đề (A-Z).
+- `Cart.sort_by_cost()`: Sắp xếp các DVD trong giỏ hàng theo giá tiền.
+
 ## [1.0.0] - 2026-11-04
 
 ### Added
