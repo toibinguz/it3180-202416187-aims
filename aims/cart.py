@@ -37,3 +37,6 @@ class Cart:
             print(f"{i}. {dvd}")
         print(f"Total cost: {self.total_cost():.2f} $")
         print("***************************************************")
+    def total_cost_with_discount(self, percent):
+        """Tính tổng tiền sau khi giảm giá (công thức đang viết sai: chỉ tính tiền giảm)."""
+        return self.total_cost() * percent / 100
