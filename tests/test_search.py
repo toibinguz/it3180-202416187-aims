@@ -17,6 +17,11 @@ class TestSearch(unittest.TestCase):
         self.assertIn(self.dvd1, results)
         self.assertIn(self.dvd3, results)
 
+    def test_search_by_title_case_insensitive(self):
+        results = search_by_title(self.items, "lion")
+        self.assertEqual(len(results), 1)
+        self.assertEqual(results[0].title, "The Lion King")
+
 
 if __name__ == "__main__":
     unittest.main()
